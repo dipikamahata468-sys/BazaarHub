@@ -428,4 +428,24 @@ button:disabled{opacity:.45;cursor:not-allowed;transform:none!important}
   .admin-order-header{align-items:flex-start;flex-direction:column}
   .admin-order-customer{grid-template-columns:1fr 1fr}
   .admin-product-heading-actions{align-items:flex-start}
+}/* HOMEPAGE BANNER TEXT COLOR FIX */
+
+.hero-content h1 {
+  color: #29232b !important;
+  -webkit-text-fill-color: #29232b !important;
+}
+
+.hero-content h1 span {
+  color: #d63384 !important;
+  -webkit-text-fill-color: #d63384 !important;
+}
+
+.hero-content p {
+  color: #6e626b !important;
+  -webkit-text-fill-color: #6e626b !important;
+}
+
+.hero-content .small-heading {
+  color: #d63384 !important;
+  -webkit-text-fill-color: #d63384 !important;
 }
