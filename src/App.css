@@ -449,3 +449,56 @@ button:disabled{opacity:.45;cursor:not-allowed;transform:none!important}
   color: #d63384 !important;
   -webkit-text-fill-color: #d63384 !important;
 }
+/* Fix Explore Our Products heading */
+.section-heading h2 {
+    color: #29232b !important;
+}
+
+.section-heading h2 span {
+    color: #d63384 !important;
+}
+
+/* GLOBAL HEADING COLOR FIX */
+
+/* Wishlist, Orders and Cart */
+.wishlist-header h2,
+.orders-header h2,
+.cart-header h2 {
+    color: #29232b !important;
+}
+
+/* Seller Dashboard */
+.seller-dashboard-heading h1,
+.seller-panel-heading h2,
+.seller-stat-card h2 {
+    color: #29232b !important;
+}
+
+/* Admin Dashboard */
+.admin-heading h1,
+.admin-panel-heading h2,
+.admin-insight-panel h2 {
+    color: #29232b !important;
+}
+
+/* All Dashboard and Drawer Headings */
+.wishlist-drawer h1,
+.wishlist-drawer h2,
+.orders-drawer h1,
+.orders-drawer h2,
+.cart-drawer h1,
+.cart-drawer h2,
+.seller-dashboard h1,
+.seller-dashboard h2,
+.admin-dashboard h1,
+.admin-dashboard h2 {
+    color: #1e1322 !important;
+}
+
+/* Keep Pink Highlighted Text Pink */
+.admin-heading h1 span,
+.seller-dashboard-heading h1 span,
+.admin-heading h2 span,
+.seller-dashboard-heading h2 span {
+    color: #d63384 !important;
+}
